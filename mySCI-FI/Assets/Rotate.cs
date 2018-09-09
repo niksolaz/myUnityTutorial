@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Rotate : MonoBehaviour {
-
+	
+	public GameObject target;
+	public float speed;
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +13,6 @@ public class Rotate : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate (Vector3.up , Time.deltaTime, Space.World);
+		target.transform.Rotate ( Vector3.up * Time.deltaTime * speed ); 
 	}
 }

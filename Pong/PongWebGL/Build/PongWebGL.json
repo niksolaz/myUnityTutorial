@@ -1,0 +1,11 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Pong",
+"dataUrl": "PongWebGL.data.unityweb",
+"asmCodeUrl": "PongWebGL.asm.code.unityweb",
+"asmMemoryUrl": "PongWebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "PongWebGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}

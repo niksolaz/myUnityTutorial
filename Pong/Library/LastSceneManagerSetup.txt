@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Pong/Uncomplete Pong/_Scenes/Main_UncompletePong.unity
+  isLoaded: 1
+  isActive: 1

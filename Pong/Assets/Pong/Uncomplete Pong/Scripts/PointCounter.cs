@@ -10,6 +10,7 @@ namespace UncompletePong{
 
 		private void OnCollisionEnter(Collision other){
 			if (other.gameObject.name == "Ball"){
+				bounce++;
 				LevelManager.Instance.updateScoreUI(bounce);
 			}
 		}

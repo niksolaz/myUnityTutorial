@@ -12,6 +12,8 @@ namespace UncompletePong{
 			}
 		}
 
-		private void gameOver(){}
+		private void gameOver(){
+			LevelManager.Instance.gameOver();
+		}
 	}
 }

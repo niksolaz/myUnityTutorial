@@ -35,13 +35,14 @@ namespace UncompletePong{
         private IEnumerator countDown(){
 
             for (int i = 3; i > 0; i--){
+                countText.text = i.ToString();
                 yield return new WaitForSeconds(1);
             }
 
             countText.text = "GO!";
             yield return new WaitForSeconds(1);
 
-            //startPanel.SetActive(false);
+            startPanel.SetActive(false);
 
             launch();
         }
